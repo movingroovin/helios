@@ -132,7 +132,7 @@
     }, {
         filter: ["width", "items", "settings"],
         run: function(a) {
-            var b = (this.width() / this.settings.items).toFixed(3)*1.25 - this.settings.margin
+            var b = (this.width() / this.settings.items).toFixed(3) - this.settings.margin
               , c = null
               , d = this._items.length
               , e = !this.settings.autoWidth
