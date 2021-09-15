@@ -9099,6 +9099,11 @@ animation: blink 0.7s infinite;
 	height:auto;
 }
 
+.img-halfwidth{
+	width:50%;
+	height:auto;
+}
+
 /* ================================================== */
 
 
@@ -10499,4 +10504,9 @@ a, img {
 	background-size: auto 100%;
 	background-attachment:scroll;
 	}
+}
+
+/* utilities */
+.justify-center {
+	justify-content: center;
 }
