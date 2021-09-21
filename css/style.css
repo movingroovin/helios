@@ -5664,6 +5664,9 @@ a.btn-left, a.btn-right {
 .width100 {
 	width: 100%;
 }
+.width50 {
+	width: 50%;
+}
 .border1 {
 	border-width: 1px;
 }
@@ -10539,4 +10542,9 @@ a, img {
 .img-75 {
 	width: 75px;
 	height: 100%;
+}
+
+/* special */
+#left_fix {
+	position: sticky;
 }
