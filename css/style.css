@@ -2173,6 +2173,7 @@ a.btn-link{
 }
 
 .btn-helios {
+	font-size: 24px;
 	background-color: var(--bgcolor-primary-helios);
 	color: #000;
 	padding: 15px 30px 15px 30px;
@@ -3262,7 +3263,7 @@ i.font60{
 }
 
 .feature-box-type-2{
-	padding:50px 45px;
+	padding:50px 20px;
 	padding-bottom:30px;
 	border-radius:10px;
 	background:#ffffff;
@@ -5661,6 +5662,11 @@ a.btn-left, a.btn-right {
 	padding-right:20px;
 }
 
+.pX30 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 /* margin top */
 
 .mt-10 {
@@ -7744,6 +7750,9 @@ section .color-overlay {
 }
 .fontsize24 {
 	font-size: 24px;
+}
+.fontsize30 {
+	font-size: 30px;
 }
 .fontsize32 {
 	font-size: 32px;
@@ -10717,12 +10726,68 @@ a, img {
 	background: #fff;
     padding: 5px;
 	border-radius: 5px;
+	height: 80px;
 	-webkit-box-shadow: 2px 10px 30px 0px rgba(10,10,10, 0.1);
 	-moz-box-shadow: 2px 10px 30px 0px rgba(10,10,10, 0.1);
 	box-shadow: 2px 10px 30px 0px rgba(10,10,10, 0.1);
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 	background-color: var(--color-primary-helios);
+	height: 70px;
+}
+.pills-text {
+	font-size: 50px;
+    padding-top: 23px;
+}
+
+.super-large-text {
+  font-family: Helvetica;
+  font-size: 180px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.border-helios {
+	border: 4px solid #efdc36;
+	border-radius: 10px;
+}
+
+/* custom timeline */
+ul.timeline-helios {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline-helios:before {
+    content: ' ';
+    background: #cccccc;
+    display: inline-block;
+    position: absolute;
+    left: 22px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline-helios > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline-helios > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #cccccc;
+	background-color: #cccccc;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    z-index: 400;
 }
 /* special */
 #left_fix {
