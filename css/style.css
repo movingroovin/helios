@@ -5575,7 +5575,9 @@ a.btn-left, a.btn-right {
 .mr100 {
 	margin-right: 100px;
 }
-
+.padding0 {
+	padding: 0!important;
+}
 .padding10 {
 	padding: 10px;
 }
@@ -7806,14 +7808,16 @@ section .color-overlay {
 #popup-box {
 	position: fixed;
 	background: #fff;
-	width: 100%;
-	height: 100%;
+	width: 90vw;
+	height: 85vh;
 	z-index: 10000;
 	top: -100%;
+	left: 50%;
+	margin-left: -45vw;
 	overflow-y: auto;
 }
 #popup-box.popup-show {
-	top: 0;
+	top: 5vh;
 }
 #popup-box.popup-hide {
 	top: -100%;
@@ -10717,9 +10721,9 @@ a, img {
 	background:#ffffff;
 	position:relative;
 	overflow:hidden;
-	-webkit-box-shadow: 2px 10px 30px 0px rgba(10,10,10, 0.1);
-	-moz-box-shadow: 2px 10px 30px 0px rgba(10,10,10, 0.1);
-	box-shadow: 2px 10px 30px 0px rgba(10,10,10, 0.1);
+	-webkit-box-shadow: 3px 10px 30px 0px rgba(10,10,10, 0.1);
+	-moz-box-shadow: 3px 10px 30px 0px rgba(10,10,10, 0.1);
+	box-shadow: 3px 10px 30px 0px rgba(10,10,10, 0.1);
 }
 
 .nav {
@@ -10755,6 +10759,12 @@ a, img {
 .border-helios {
 	border: 4px solid #efdc36;
 	border-radius: 10px;
+}
+
+.bg-helios {
+	background-color: var(--bgcolor-primary-helios);
+	padding: 15px 20px 10px;
+	border-radius: 5px;
 }
 
 /* custom timeline */
