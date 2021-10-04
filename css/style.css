@@ -2173,6 +2173,7 @@ a.btn-link{
 }
 
 .btn-helios {
+	display: inline-block;
 	font-size: 24px;
 	background-color: var(--bgcolor-primary-helios);
 	color: #000;
